@@ -155,7 +155,7 @@ public class Principal extends javax.swing.JFrame {
         );
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel4.setText("APLICACION - CRUD");
+        jLabel4.setText("CRUD USUARIOS");
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Operaciones"));
 
@@ -168,7 +168,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/revert.png"))); // NOI18N
-        btnModificar.setText("Modificar");
+        btnModificar.setText("Editar");
         btnModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnModificarActionPerformed(evt);
@@ -184,7 +184,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         btnNuevo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
-        btnNuevo.setText("Nuevo");
+        btnNuevo.setText("Limpiar");
         btnNuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNuevoActionPerformed(evt);
